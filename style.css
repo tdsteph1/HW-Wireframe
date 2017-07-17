@@ -1,0 +1,130 @@
+body
+{
+	width: 960px;
+	font-family: 'Arial', 'Helvetica Neve', Helvetica, sans-serif;
+	font-size: 18px;
+	background-color: #777;
+	margin: 0 auto;
+	text-align: center;
+}
+
+
+#header, #nav, #footer
+{
+	background-color: #ebebeb;
+	padding: 15px;
+	margin: 10px;
+	color: #777;
+
+	
+
+}
+
+#section
+{
+	background-color: #ebebeb;
+	height: 15em;
+	margin: 10px;
+	color: #777;
+	width: 530px;
+	float: left;
+}
+
+#aside
+{
+	background-color: #ebebeb;
+	height: 15em;
+	margin: 10px;
+	color: #777;
+	width: 390px;
+	float: left;
+}
+
+#footer
+{
+
+	background-color: #ebebeb;
+	margin: 310px auto;
+	width: 910px;
+	color: #777;
+
+
+	
+}
+
+
+#section p
+{
+	margin-top: 40px;
+
+}
+
+#aside p
+{
+	margin-top: 40px;
+}
+
+
+#article
+{
+	background-color: #777;
+	color: #F5F5F5;
+	width: 510px;
+	margin: auto;
+	margin-bottom: 50px;
+	
+	padding-bottom: 48px;	/* Same As:  padding: 0px 0px 135px 0px; */
+	
+	
+	
+}
+
+/*article p: only affect the p value inside of <div class="article"> */
+#article p
+{
+	margin: auto;				/*moves text to center of box */
+	position: relative;         /* position: relative & top or bottom or left or right moves the text anywhere within box */
+	top: 20px;
+ 
+}
+
+/* h1 h2 h3 within artical tag. this is a grey rectangle inside of #article rectangle */
+#h123
+{
+	color: #777;
+	font-weight: bold;
+	position: relative;					/* this will only affect the box not text. For text TRY: #h123 p */
+	top: 30px;
+	background-color: #ebebeb;
+	margin: auto;
+
+	padding-bottom: 30px;				/*NOTE: if text is outside of grey box then increase padding */
+	width: 460px;
+	
+
+}
+
+#h123 p
+{
+	position: top;						/* this will only affect the text inside <div id="#h123"> box. The box will not move only text inside it */
+	top: 15px;
+}
+
+#_p
+{
+	color: #777;
+
+	position: relative;
+	top: 30px;
+	background-color: #ebebeb;
+	margin: auto;
+    margin-top: 10px;
+    padding-bottom: 30px;
+	width: 460px;
+}
+
+#_p p
+{
+	position: relative;
+	top: 15px;
+}
