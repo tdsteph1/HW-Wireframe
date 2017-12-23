@@ -73,7 +73,7 @@ body
 	margin: auto;
 	margin-bottom: 50px;
 	
-	padding-bottom: 48px;	/* Same As:  padding: 0px 0px 135px 0px; */
+	padding-bottom: 48px;				/* Same As:  padding: 0px 0px 135px 0px; */
 	
 	
 	
@@ -82,8 +82,8 @@ body
 /*article p: only affect the p value inside of <div class="article"> */
 #article p
 {
-	margin: auto;				/*moves text to center of box */
-	position: relative;         /* position: relative & top or bottom or left or right moves the text anywhere within box */
+	margin: auto;						/*moves text to center of box */
+	position: relative;         		/* position: relative & top or bottom or left or right moves the text anywhere within box */
 	top: 20px;
  
 }
